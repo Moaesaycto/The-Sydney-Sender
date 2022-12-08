@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sydney Sender</title>
+</head>
+<body>
+    <div class="main_title">
+        <h1>Sydney Sender</h1>
+    </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="survey">
+                <h1>Questionnaire </h1>
+                <div class="question" id="question1">
+                    <p>What is your preference maximum travel distance?</p>
+                    <br>
+                    <div class="questionleftcolumn">
+                        <input type="range" min="0" max="3" step="1" value="0" id="range">
+                        <script  src="../static/script.js"></script>
+                        <script src="{{url_for('static', filename='script.js')}}"></script>
+                    </div>
+                    <div class="questionrightcolumn">
+                        <div class="value" id="rangeDisplay">Inner West</div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="question" id="question2">
+                    <p>How many people would you like to be around?</p>
+                    <br>
+                    <div class="questionleftcolumn">
+                        <input type="range" min="0" max="9" step="1" value="0" id="people">
+                        <script  src="../static/script.js"></script>
+                        <script src="{{url_for('static', filename='script.js')}}"></script>
+                    </div>
+                    <div class="questionrightcolumn">
+                        <div class="value" id="peopleDisplay">Isolated</div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="question" id="question3">
+                    <p>How physically demanding would you like the activity to be?</p>
+                    <br>
+                    <div class="questionleftcolumn">
+                        <input type="range" min="0" max="9" step="1" value="0" id="physical">
+                        <script  src="../static/script.js"></script>
+                        <script src="{{url_for('static', filename='script.js')}}"></script>
+                    </div>
+                    <div class="questionrightcolumn">
+                        <div class="value" id="physicalDisplay">Lazy</div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="question" id="question4">
+                    <p>How social are you intending on being with your companions?</p>
+                    <br>
+                    <div class="questionleftcolumn">
+                        <input type="range" min="0" max="9" step="1" value="0" id="social">
+                        <script  src="../static/script.js"></script>
+                        <script src="{{url_for('static', filename='script.js')}}"></script>
+                    </div>
+                    <div class="questionrightcolumn">
+                        <div class="value" id="socialDisplay">Minimal Talking</div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="question" id="question5">
+                    <p>Are you planning on getting food?</p>
+                    <br>
+                    <div class="questionleftcolumn">
+                        <label class="container"><p class="option">Yes</p>
+                            <input type="radio" id="food" name="food" value="yes">
+                            <span class="radio"></span>
+                        </label><br>
+                    </div>
+                    <div class="questionleftcolumn">
+                        <label class="container"><p class="option">No</p>
+                            <input type="radio" id="food" name="food" value="no">
+                            <span class="radio"></span>
+                        </label><br>
+                    </div>
+                </div>
+                <br><br>
+                <div class="question" id="question6">
+                    <p>Do you want the option of drinking alcohol?</p>
+                    <br>
+                    <div class="questionleftcolumn">
+                        <label class="container"><p class="option">Yes</p>
+                            <input type="radio" id="alcohol" name="alcohol" value="yes">
+                            <span class="radio"></span>
+                        </label><br>
+                    </div>
+                    <div class="questionleftcolumn">
+                        <label class="container"><p class="option">No</p>
+                            <input type="radio" id="alcohol" name="alcohol" value="no">
+                            <span class="radio"></span>
+                        </label><br>
+                    </div>
+                </div>
+                <br><br>
+                <div class="question" id="question7">
+                    <p>Which form(s) of transport should you need to get there?</p>
+                    <br>
+                    <div class="questionleftcolumn">
+                        <label class="container"><p class="option">Public</p>
+                            <input type="checkbox" id="transport" name="transport" value="public">
+                            <span class="checkoption"></span>
+                        </label><br>
+                    </div>
+                    <div class="questionleftcolumn">
+                        <label class="container"><p class="option">Drive</p>
+                            <input type="checkbox" id="transport" name="transport" value="drive">
+                            <span class="checkoption"></span>
+                        </label><br>
+                    </div>
+                </div>
+                <br><br>
+                <div class="question" id="question8">
+                    <p>Approximately when do you want the activity to be?</p>
+                    <br>
+                    <div class="questionleftcolumn">
+                        <label class="container"><p class="option">Morning</p>
+                            <input type="radio" id="time" name="time" value="morning">
+                            <span class="radio"></span>
+                        </label><br>
+                    </div>
+                    <div class="questionleftcolumn">
+                        <label class="container"><p class="option">Day</p>
+                            <input type="radio" id="time" name="time" value="daytime">
+                            <span class="radio"></span>
+                        </label><br>
+                    </div>
+                    <div class="questionleftcolumn">
+                        <label class="container"><p class="option">Night</p>
+                            <input type="radio" id="time" name="time" value="night">
+                            <span class="radio"></span>
+                        </label><br>
+                    </div>
+                    <div class="questionleftcolumn">
+                        <label class="container"><p class="option">Anytime</p>
+                            <input type="radio" id="time" name="time" value="anytime">
+                            <span class="radio"></span>
+                        </label><br>
+                    </div>
+                </div>
+                <br><br>
+                <div class="question" id="question9">
+                    <p>How much are you willing to spend?</p>
+                    <br>
+                    <div class="questionleftcolumn">
+                        <input type="range" min="0" max="9" step="1" value="0" id="money">
+                        <script  src="../static/script.js"></script>
+                        <script src="{{url_for('static', filename='script.js')}}"></script>
+                    </div>
+                    <div class="questionrightcolumn">
+                        <div class="value" id="moneyDisplay">Free</div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="question" id="question10">
+                    <p>Which level of freedom would you prefer?</p>
+                    <br>
+                    <div class="questionleftcolumn">
+                        <label class="container"><p class="option">Require Booking</p>
+                            <input type="radio" id="freedom" name="freedom" value="morning">
+                            <span class="radio"></span>
+                        </label><br>
+                    </div>
+                    <div class="questionleftcolumn">
+                        <label class="container"><p class="option">Go With Flow</p>
+                            <input type="radio" id="freedom" name="freedom" value="daytime">
+                            <span class="radio"></span>
+                        </label><br>
+                    </div>
+                </div>
+                <br>
+                <p class="error" id="error"></p>
+                <button class="submit_button" onclick="submit();">Submit Form</button>
+                <br><br><br>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="results" id="results">
+                <h1>Results </h1>
+                <p id="result">Results will appear here. Right now, there is nothing because there is no backend.</p>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+      </div>
+        
+</body>
