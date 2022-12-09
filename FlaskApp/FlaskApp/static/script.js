@@ -1,3 +1,7 @@
+var total_generated = 0;
+var curr_request = {};
+var default_gen = 5;
+
 var rangeElem = document.getElementById("range");
 
 var rangeValue = function(){
@@ -68,17 +72,34 @@ var moneyValue = function(){
 moneyElem.addEventListener("input", moneyValue);
 
 
-function submit() {
+function submitReset() {
+    document.getElementById("initmessage").textContent = "Your results will appear here.";
+    if (total_generated == default_gen) document.getElementById("result_list").innerHTML = "";
+    total_generated = 0;
+    submit(null);
+}
+
+function submitAgain() {
+    curr_request['start'] += default_gen;
+    submit(curr_request);
+}
+
+function submit(json) {
     resetBackgrounds();
     if (checkForm() != 0) {
         document.getElementById("error").textContent = "Please fill out all aspects of the form.";
         document.getElementById("error").style.background = "rgb(234, 167, 167)";
-        console.log("Oops");
         return;
     }
-    const resultElem = document.getElementById("results");
-    resultElem.scrollIntoView({behavior: "smooth", block: "start"});
-    document.getElementById("result").textContent = "Sebastian is stupid";
+
+    if (json == null) {
+        const resultElem = document.getElementById("results");
+        resultElem.scrollIntoView({behavior: "smooth", block: "start"});
+        json = createRequestJSON(default_gen);
+        curr_request = json;
+    }
+    
+    requestSubmit(json);
 }
 
 function checkForm() {
@@ -90,6 +111,7 @@ function checkForm() {
     var freedom = document.querySelector('input[name = "freedom"]:checked');
 
     var unfilled = 0;
+    console.log(food);
     if (food == null) {
         document.getElementById("question5").style.background = red;
         unfilled += 1;
@@ -111,7 +133,6 @@ function checkForm() {
         unfilled += 1;
     }
 
-    console.log(unfilled);
     return unfilled;
 }
 
@@ -123,4 +144,70 @@ function resetBackgrounds() {
         if (i == 9) continue;
         document.getElementById("question".concat(i.toString())).style.background = normal;
     }
+}
+
+function displayResults(json) {
+    var more_button = document.getElementById("load_button");
+    if (more_button != null) {
+        more_button.remove();
+    }
+    
+    var results = document.getElementById("result_list");
+    for (let i = json['start']; i < json['end']; i++) {
+        curr_json = json[i.toString()]
+        results.innerHTML += '<div class="resultcard"><h1>' + curr_json['result'] + '</h1><p>' + curr_json['result'] + " matched with a rating of " + curr_json['data'] + '</p></div>';
+    }
+    
+    if (Object.keys(json).length - 2 == default_gen) {
+        results.innerHTML += '<button class="more_button" onclick="submitAgain()" id="load_button">Load More</button>';
+    }
+    else {
+        results.innerHTML += "<br><br>"
+    }
+}
+
+function createRequestJSON(num) {
+    var checkedValues = []; 
+    var public = document.getElementById('publicTransport');
+    var private = document.getElementById('privateTransport');
+
+    if (public.checked) {
+        checkedValues.push("public");
+    }
+    if (private.checked) {
+        checkedValues.push("drive");
+    }
+
+    const json = {
+        "range": parseInt(document.getElementById("range").value),
+        "people": parseInt(document.getElementById("people").value),
+        "physical": parseInt(document.getElementById("physical").value),
+        "social": parseInt(document.getElementById("social").value),
+        "food": document.querySelector('input[name = "food"]:checked').value == "yes",
+        "alcohol": document.querySelector('input[name = "alcohol"]:checked').value == "yes",
+        "transport": checkedValues,
+        "time": document.querySelector('input[name = "time"]:checked').value,
+        "money": parseInt(document.getElementById("money").value),
+        "freedom": document.querySelector('input[name = "freedom"]:checked').value == "free",
+        "start": total_generated,
+        "load": num,
+    }
+
+    curr_request = json;
+    total_generated += num;
+    return json;
+
+}
+
+function requestSubmit(request) {
+    console.log(request);
+    fetch(`${window.origin}/submit`, {
+        method: "POST",
+        credentials: "include",
+        body: JSON.stringify(request),
+        cache: "no-cache",
+        headers: new Headers({
+            "content-type": "application/json"
+        })
+    }).then(response => response.json()).then(json => displayResults(json));
 }

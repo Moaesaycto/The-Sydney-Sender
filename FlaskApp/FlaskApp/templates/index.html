@@ -7,7 +7,7 @@
     <title>Sydney Sender</title>
 </head>
 <body>
-    <div class="main_title">
+    <div class="main_title" style="background-image: url('/static/media/sydney.jpg')">
         <h1>Sydney Sender</h1>
     </div>
 
@@ -106,13 +106,13 @@
                     <br>
                     <div class="questionleftcolumn">
                         <label class="container"><p class="option">Public</p>
-                            <input type="checkbox" id="transport" name="transport" value="public">
+                            <input type="checkbox" id="publicTransport" name="transport" value="public">
                             <span class="checkoption"></span>
                         </label><br>
                     </div>
                     <div class="questionleftcolumn">
                         <label class="container"><p class="option">Drive</p>
-                            <input type="checkbox" id="transport" name="transport" value="drive">
+                            <input type="checkbox" id="privateTransport" name="transport" value="drive">
                             <span class="checkoption"></span>
                         </label><br>
                     </div>
@@ -165,30 +165,30 @@
                     <br>
                     <div class="questionleftcolumn">
                         <label class="container"><p class="option">Require Booking</p>
-                            <input type="radio" id="freedom" name="freedom" value="morning">
+                            <input type="radio" id="freedom" name="freedom" value="book">
                             <span class="radio"></span>
                         </label><br>
                     </div>
                     <div class="questionleftcolumn">
                         <label class="container"><p class="option">Go With Flow</p>
-                            <input type="radio" id="freedom" name="freedom" value="daytime">
+                            <input type="radio" id="freedom" name="freedom" value="free">
                             <span class="radio"></span>
                         </label><br>
                     </div>
                 </div>
                 <br>
                 <p class="error" id="error"></p>
-                <button class="submit_button" onclick="submit();">Submit Form</button>
+                <button class="submit_button" onclick="submitReset();">Submit Form</button>
                 <br><br><br>
             </div>
         </div>
         <div class="rightcolumn">
             <div class="results" id="results">
                 <h1>Results </h1>
-                <p id="result">Results will appear here. Right now, there is nothing because there is no backend.</p>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <p id="initmessage">Your results will appear here.</p>
+                <div id="result_list">
+                    <!-- Generated results will appear here -->
+                </div>
             </div>
       </div>
         
