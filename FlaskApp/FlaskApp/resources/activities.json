@@ -1,0 +1,1163 @@
+{
+    "Tramsheds" : {   
+        "range": 1,
+        "social": 5,
+        "physical": 2,
+        "people": 3,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 6,
+        "freedom": false,
+        "info": "Dinner or night out at the Tramsheds."
+    },
+    
+    "Jubilee Park" : {   
+        "range": 1,
+        "social": 6,
+        "physical": 5.6,
+        "people": 2,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 0,
+        "freedom": true,
+        "info": "Walk around the water and shit. Nice view"
+    },
+    
+    "Axe Throwing" : {   
+        "range": 2,
+        "social": 5,
+        "physical": 4,
+        "people": 6,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 8,
+        "freedom": true,
+        "info": "Only basic people go axe throwing."
+    },
+
+    "Summer Hill Hotel" : {   
+        "range": 0,
+        "social": 9,
+        "physical": 1,
+        "people": 4,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": true,
+        "time": "anytime",
+        "money": 3,
+        "freedom": true,
+        "info": "Summer Hill hotel is great for drinking. Get the parma"
+    },
+
+    "Bowling" : {   
+        "range": 1,
+        "social": 6,
+        "physical": 4,
+        "people": 6,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": true,
+        "time": "anytime",
+        "money": 7,
+        "freedom": false,
+        "info": "I didn't win a free drink last time, but it's fun to go bowling."
+    },
+
+    "Pancakes on the Rocks" : {   
+        "range": 1,
+        "social": 8,
+        "physical": 1,
+        "people": 4,
+        "food": true,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 4,
+        "freedom": true,
+        "info": "Unlike a marriage, Pancakes on the Rocks is actually a good thing."
+    },
+
+    "Movies" : {   
+        "range": 1,
+        "social": 2,
+        "physical": 1,
+        "people": 5,
+        "food": true,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 7,
+        "freedom": false,
+        "info": "Go see a movie, like Marvel or something."
+    },
+
+    "City Shopping Spree" : {   
+        "range": 1,
+        "social": 4,
+        "physical": 6,
+        "people": 8,
+        "food": true,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 9,
+        "freedom": true,
+        "info": "Shopping in the city! Just don't shit yourself."
+    },
+
+    "City Heroes Pool" : {   
+        "range": 1,
+        "social": 6,
+        "physical": 3,
+        "people": 6,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 7,
+        "freedom": true,
+        "info": "Schity Heloes."
+    },
+
+    "China Town" : {   
+        "range": 1,
+        "social": 6,
+        "physical": 5,
+        "people": 6,
+        "food": true,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 8,
+        "freedom": true,
+        "info": "Ching, chong China Town"
+    },
+
+    "City Walking" : {   
+        "range": 1,
+        "social": 5,
+        "physical": 8,
+        "people": 4,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 0,
+        "freedom": true,
+        "info": "Enjoy chafing while you walk around the city."
+    },
+
+    "Opera House Performance" : {   
+        "range": 1,
+        "social": 3,
+        "physical": 2,
+        "people": 8,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": true,
+        "time": "anytime",
+        "money": 8,
+        "freedom": false,
+        "info": "Enjoy one of the many concertos that plays every night."
+    },
+
+    "Live Music" : {   
+        "range": 2,
+        "social": 6,
+        "physical": 2,
+        "people": 9,
+        "food": true,
+        "transport": ["public"],
+        "alcohol": true,
+        "time": "night",
+        "money": 6,
+        "freedom": true,
+        "info": "Good luck trying to understand each other while the lovely band plays their Live Music at a pub."
+    },
+
+    "Sydney Olympic Park" : {   
+        "range": 2,
+        "social": 3,
+        "physical": 6,
+        "people": 3,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": true,
+        "time": "anytime",
+        "money": 2,
+        "freedom": true,
+        "info": "Sydney Olympic Park is an IRL superflat world."
+    },
+
+    "Local Pub" : {   
+        "range": 0,
+        "social": 7,
+        "physical": 2,
+        "people": 4,
+        "food": true,
+        "transport": ["public"],
+        "alcohol": true,
+        "time": "night",
+        "money": 4,
+        "freedom": true,
+        "info": "Glub glub glub at a Local Pub."
+    },
+
+    "Dinner in the City" : {   
+        "range": 1,
+        "social": 7,
+        "physical": 3,
+        "people": 6,
+        "food": true,
+        "transport": ["public"],
+        "alcohol": true,
+        "time": "night",
+        "money": 7,
+        "freedom": true,
+        "info": "Lots of asian places to eat at when you have Dinner in the City."
+    },
+
+    "Trivia Night" : {   
+        "range": 1,
+        "social": 9,
+        "physical": 2,
+        "people": 7,
+        "food": true,
+        "transport": ["public"],
+        "alcohol": true,
+        "time": "night",
+        "money": 4,
+        "freedom": true,
+        "info": "Good luck beating that old ACF binger who knows fucking everything at Pub Trivia."
+    },
+
+    "Mini Golf" : {   
+        "range": 2,
+        "social": 7,
+        "physical": 5,
+        "people": 4,
+        "food": false,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 6,
+        "freedom": false,
+        "info": "Enjoy one of the many concertos that plays every night."
+    },
+
+    "Simpsons Cooking Day" : {   
+        "range": 0,
+        "social": 5,
+        "physical": 6,
+        "people": 0,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": true,
+        "time": "anytime",
+        "money": 4,
+        "freedom": true,
+        "info": "Dad's been drugged! No, he hasn't. He's in a food coma from cooking all day!."
+    },
+
+    "Jamberoo" : {   
+        "range": 3,
+        "social": 5,
+        "physical": 9,
+        "people": 8,
+        "food": true,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 9,
+        "freedom": false,
+        "info": "Jamberoo: Where you control ALL the action."
+    },
+
+    "Packed Abode Rave" : {   
+        "range": 0,
+        "social": 5,
+        "physical": 7,
+        "people": 0,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": true,
+        "time": "anytime",
+        "money": 0,
+        "freedom": true,
+        "info": "And I know I'm RiiiiIIIIiIiiiIght for the FIRST time in my life! That's why I scream yell, those Crowded House songs."
+    },
+
+    "Papadino's" : {   
+        "range": 3,
+        "social": 4,
+        "physical": 3,
+        "people": 4,
+        "food": true,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 5,
+        "freedom": true,
+        "info": "Papa Dino can Papa do me."
+    },
+
+    "Ice Skating" : {   
+        "range": 2,
+        "social": 3,
+        "physical": 9,
+        "people": 5,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 3,
+        "freedom": true,
+        "info": "Have you seen those thighs on speed skaters? They could crush a watermelon! Go ice skating."
+    },
+
+    "Go Karting" : {   
+        "range": 2,
+        "social": 3,
+        "physical": 7,
+        "people": 3,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 8,
+        "freedom": false,
+        "info": "No women. Go Karting."
+    },
+
+    "Aquarium" : {   
+        "range": 1,
+        "social": 3,
+        "physical": 4,
+        "people": 4,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 4,
+        "freedom": false,
+        "info": "Look at the little fishies at the aquarium. Don't forget those weird sex toy things they sell in the gift shop."
+    },
+
+    "Taronga Zoo" : {   
+        "range": 2,
+        "social": 5,
+        "physical": 7.5,
+        "people": 7,
+        "food": true,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 6,
+        "freedom": false,
+        "info": "A day at Taronga Zoo. The Gorilla clenches."
+    },
+
+    "Powerhouse" : {   
+        "range": 1,
+        "social": 5,
+        "physical": 4,
+        "people": 4,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 3,
+        "freedom": false,
+        "info": "Learn about powered things at the Powerhouse, the mitochondria of Sydney."
+    },
+
+    "Karaoke" : {   
+        "range": 1,
+        "social": 9,
+        "physical": 4,
+        "people": 2,
+        "food": true,
+        "transport": ["public"],
+        "alcohol": true,
+        "time": "anytime",
+        "money": 7,
+        "freedom": false,
+        "info": "Sing your heart out at karaoke!"
+    },
+
+    "Blue Mountains Hike" : {   
+        "range": 3,
+        "social": 3,
+        "physical": 10,
+        "people": 1,
+        "food": false,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "morning",
+        "money": 0,
+        "freedom": true,
+        "info": "Don't forget to visit the Three Sisters after your nice hike in the Blue Mountains"
+    },
+
+    "North Sydney Hike" : {   
+        "range": 2,
+        "social": 3,
+        "physical": 10,
+        "people": 1,
+        "food": false,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "morning",
+        "money": 0,
+        "freedom": true,
+        "info": "Don't forget to eat the rich after your nice hike in North Sydney"
+    },
+
+    "South Sydney Hike" : {   
+        "range": 2,
+        "social": 3,
+        "physical": 10,
+        "people": 1,
+        "food": false,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "morning",
+        "money": 0,
+        "freedom": true,
+        "info": "Don't forget to cheer on the Rabbitohs after your nice hike in South Sydney"
+    },
+
+    "Eastern Beaches" : {   
+        "range": 2,
+        "social": 5,
+        "physical": 7,
+        "people": 8,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": true,
+        "time": "anytime",
+        "money": 2,
+        "freedom": true,
+        "info": "Have a picnic and eat nothing."
+    },
+
+    "Mate's House" : {   
+        "range": 0,
+        "social": 6,
+        "physical": 3,
+        "people": 0,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": true,
+        "time": "anytime",
+        "money": 0,
+        "freedom": true,
+        "info": "Can't be gay on your own."
+    },
+
+    "Public Pool" : {   
+        "range": 1,
+        "social": 4,
+        "physical": 8,
+        "people": 8,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 2,
+        "freedom": true,
+        "info": "I hope you enjoy the taste of saliva, child piss and sweat."
+    },
+    
+    "Park to Play Sport" : {   
+        "range": 0,
+        "social": 4,
+        "physical": 9,
+        "people": 3,
+        "food": false,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 0,
+        "freedom": false,
+        "info": "Stop calling me 'love' otherwise I'll stop playing tennis with you."
+    },
+
+    "Parkcrawl" : {   
+        "range": 1,
+        "social": 4,
+        "physical": 8,
+        "people": 3,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 0,
+        "freedom": true,
+        "info": "Which park is the best for Capture the Flag? Find out!"
+    },
+
+    "Stay the Fuck Home" : {   
+        "range": 0,
+        "social": 0,
+        "physical": 0,
+        "people": 0,
+        "food": false,
+        "transport": [],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 0,
+        "freedom": true,
+        "info": "Play Minecraft? Have a nap? Why are you using this,  you clearly don't want to go out"
+    },
+
+    "Escape Room" : {   
+        "range": 1,
+        "social": 9,
+        "physical": 5,
+        "people": 4,
+        "food": false,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 7,
+        "freedom": false,
+        "info": "I COULD NOT ESCAPE! A PLEA FROM THE HEART."
+    },
+
+    "Going for a Drive" : {   
+        "range": 2,
+        "social": 3,
+        "physical": 2,
+        "people": 0,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 1,
+        "freedom": true,
+        "info": "Life is a Highway, I wanna ride it all night long, except petrol prices are too high"
+    },
+
+    "Arcade" : {   
+        "range": 1,
+        "social": 6,
+        "physical": 4,
+        "people": 8,
+        "food": false,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 7,
+        "freedom": true,
+        "info": "Gambling for Kids. Need a Mortgage for a Mortgage"
+    },
+
+    "Sports Game" : {   
+        "range": 2,
+        "social": 7,
+        "physical": 6,
+        "people": 9,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": true,
+        "time": "anytime",
+        "money": 6,
+        "freedom": false,
+        "info": "Up the Fucken Dragons"
+    },
+    
+    "Pub Crawl" : {   
+        "range": 1,
+        "social": 6,
+        "physical": 6,
+        "people": 4,
+        "food": true,
+        "transport": ["public"],
+        "alcohol": true,
+        "time": "night",
+        "money": 3,
+        "freedom": true,
+        "info": "We're on a Pub Crawl to Nowhere"
+    },
+
+    "Concert" : {   
+        "range": 2,
+        "social": 7,
+        "physical": 5,
+        "people": 9,
+        "food": false,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 7,
+        "freedom": false,
+        "info": "Elton John's last final conclusion end of the road must end soon farewell tour"
+    },
+
+    "Rock Climbing" : {   
+        "range": 1,
+        "social": 6,
+        "physical": 8,
+        "people": 4,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 5,
+        "freedom": false,
+        "info": "Do you climb into space? To the rock where you live"
+    },
+
+    "Seven Bridge Walk" : {   
+        "range": 2,
+        "social": 5,
+        "physical": 10,
+        "people": 3,
+        "food": false,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 0,
+        "freedom": true,
+        "info": "Seven bridges will collide."
+    },
+
+    "Speed Dating" : {   
+        "range": 1,
+        "social": 10,
+        "physical": 2,
+        "people": 9,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": true,
+        "time": "night",
+        "money": 2,
+        "freedom": false,
+        "info": "Woah, you need friends."
+    },
+
+    "Luna Park" : {   
+        "range": 1,
+        "social": 3,
+        "physical": 5,
+        "people": 7,
+        "food": true,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 9,
+        "freedom": true,
+        "info": "You're going to Luna Park? Don't go in the haunted house!"
+    },
+
+    "Go to a Cafe" : {   
+        "range": 1,
+        "social": 10,
+        "physical": 2,
+        "people": 5,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 3,
+        "freedom": true,
+        "info": "Caffeine junkies rejoice!"
+    },
+
+    "Club" : {   
+        "range": 2,
+        "social": 9,
+        "physical": 5,
+        "people": 9,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": true,
+        "time": "night",
+        "money": 8,
+        "freedom": true,
+        "info": "Prepare to be sexually assaulted."
+    },
+
+    "Bike Ride" : {   
+        "range": 2,
+        "social": 2,
+        "physical": 10,
+        "people": 2,
+        "food": false,
+        "transport": [],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 0,
+        "freedom": true,
+        "info": "Become one of the most hated people!"
+    },
+
+    "Library" : {   
+        "range": 1,
+        "social": 1,
+        "physical": 2,
+        "people": 2,
+        "food": false,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 0,
+        "freedom": true,
+        "info": "It's always nice to go read in a library - except during HSC time."
+    },
+
+    "Fish Markets" : {   
+        "range": 1,
+        "social": 2,
+        "physical": 4,
+        "people": 7,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 7,
+        "freedom": true,
+        "info": "Fishy fish markets."
+    },
+
+    "Ghost Tour" : {   
+        "range": 1,
+        "social": 5,
+        "physical": 5,
+        "people": 3,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "night",
+        "money": 8,
+        "freedom": false,
+        "info": "Spooky ghost mouth."
+    },
+
+    "Visit a National Park" : {   
+        "range": 3,
+        "social": 2,
+        "physical": 7,
+        "people": 1,
+        "food": false,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 1,
+        "freedom": true,
+        "info": ""
+    },
+
+    "Botanic Gardens" : {   
+        "range": 1,
+        "social": 2,
+        "physical": 6,
+        "people": 2,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 0,
+        "freedom": true,
+        "info": "Fishy fish markets."
+    },
+
+    "Museum/Art Gallery" : {   
+        "range": 1,
+        "social": 3,
+        "physical": 5,
+        "people": 5,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 1,
+        "freedom": false,
+        "info": "Fishy fish markets."
+    },
+
+    "Cockatoo Island" : {   
+        "range": 1,
+        "social": 3,
+        "physical": 6,
+        "people": 3,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 0,
+        "freedom": true,
+        "info": ""
+    },
+    
+    "Helicopter Tour" : {   
+        "range": 2,
+        "social": 3,
+        "physical": 4,
+        "people": 2,
+        "food": false,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 9,
+        "freedom": false,
+        "info": ""
+    },
+
+    "Harbour Bridge Climb" : {   
+        "range": 1,
+        "social": 3,
+        "physical": 7,
+        "people": 4,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 8,
+        "freedom": false,
+        "info": ""
+    },
+
+    "Comedy Show" : {   
+        "range": 1,
+        "social": 4,
+        "physical": 3,
+        "people": 8,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": true,
+        "time": "night",
+        "money": 7,
+        "freedom": false,
+        "info": ""
+    },
+
+    "Have a Picnic" : {   
+        "range": 2,
+        "social": 8,
+        "physical": 4,
+        "people": 1,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 1,
+        "freedom": true,
+        "info": ""
+    },
+
+    "Outdoor Cinema" : {   
+        "range": 2,
+        "social": 5,
+        "physical": 3,
+        "people": 7,
+        "food": false,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "night",
+        "money": 3,
+        "freedom": false,
+        "info": ""
+    },
+
+    "Wine Tasting" : {   
+        "range": 2,
+        "social": 5,
+        "physical": 4,
+        "people": 5,
+        "food": true,
+        "transport": ["public"],
+        "alcohol": true,
+        "time": "anytime",
+        "money": 8,
+        "freedom": false,
+        "info": ""
+    },
+
+    "Go to a Brewery" : {   
+        "range": 2,
+        "social": 7,
+        "physical": 3,
+        "people": 4,
+        "food": true,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 5,
+        "freedom": true,
+        "info": ""
+    },
+
+    "Ferry Ride to Manly" : {   
+        "range": 2,
+        "social": 4,
+        "physical": 4,
+        "people": 2,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 1,
+        "freedom": true,
+        "info": ""
+    },
+
+    "Fruit Picking" : {   
+        "range": 3,
+        "social": 5,
+        "physical": 5,
+        "people": 2,
+        "food": true,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 7,
+        "freedom": false,
+        "info": ""
+    },
+    
+    "Reverse Garbage" : {   
+        "range": 1,
+        "social": 6,
+        "physical": 4,
+        "people": 2,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 4,
+        "freedom": true,
+        "info": ""
+    },
+
+    "Attend a Market Event" : {   
+        "range": 2,
+        "social": 6,
+        "physical": 5,
+        "people": 8,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": true,
+        "time": "anytime",
+        "money": 6,
+        "freedom": true,
+        "info": ""
+    },
+
+    "Scenic World" : {   
+        "range": 3,
+        "social": 3,
+        "physical": 8,
+        "people": 3,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 7,
+        "freedom": false,
+        "info": " "
+    },
+    
+    "Buffet" : {   
+        "range": 1,
+        "social": 5,
+        "physical": 2,
+        "people": 3,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": true,
+        "time": "anytime",
+        "money": 6,
+        "freedom": false,
+        "info": " "
+    },
+
+    "Newtown" : {   
+        "range": 1,
+        "social": 7,
+        "physical": 4,
+        "people": 7,
+        "food": true,
+        "transport": ["driving", "public"],
+        "alcohol": true,
+        "time": "night",
+        "money": 5,
+        "freedom": true,
+        "info": " "
+    },
+
+    "See a Musical" : {   
+        "range": 1,
+        "social": 4,
+        "physical": 5,
+        "people": 7,
+        "food": false,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 7,
+        "freedom": false,
+        "info": " "
+    },
+
+    "Attend a Craft Workshop" : {   
+        "range": 2,
+        "social": 7,
+        "physical": 4,
+        "people": 6,
+        "food": false,
+        "transport": ["driving", "public"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 6,
+        "freedom": false,
+        "info": " "
+    },
+
+    "Harbour Cruise" : {   
+        "range": 1,
+        "social": 6,
+        "physical": 4,
+        "people": 6,
+        "food": true,
+        "transport": ["public"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 7,
+        "freedom": false,
+        "info": " "
+    },
+
+    "Three Sisters" : {   
+        "range": 3,
+        "social": 3,
+        "physical": 8,
+        "people": 2,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 1,
+        "freedom": true,
+        "info": " "
+    },
+
+    "Glow Worm Tunnel" : {   
+        "range": 3,
+        "social": 2,
+        "physical": 9,
+        "people": 1,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 0,
+        "freedom": true,
+        "info": " "
+    },
+
+    "Erina Fair" : {   
+        "range": 3,
+        "social": 4,
+        "physical": 6,
+        "people": 7,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 8,
+        "freedom": true,
+        "info": " "
+    },
+
+    "Dam Cliffs" : {   
+        "range": 3,
+        "social": 2,
+        "physical": 8,
+        "people": 1,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 0,
+        "freedom": true,
+        "info": " "
+    },
+
+    "Newnes" : {   
+        "range": 3,
+        "social": 2,
+        "physical": 9,
+        "people": 1,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 0,
+        "freedom": true,
+        "info": " "
+    },
+
+    "Fishing in the Pacific" : {   
+        "range": 3,
+        "social": 6,
+        "physical": 6,
+        "people": 1,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 1,
+        "freedom": true,
+        "info": " "
+    },
+
+    "Sydney Fishing" : {   
+        "range": 2,
+        "social": 6,
+        "physical": 5,
+        "people": 1,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 1,
+        "freedom": true,
+        "info": " "
+    },
+
+    "Kiama Blow Hole" : {   
+        "range": 3,
+        "social": 5,
+        "physical": 5,
+        "people": 2,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "anytime",
+        "money": 0,
+        "freedom": true,
+        "info": " "
+    },
+
+    "The Gong" : {   
+        "range": 3,
+        "social": 4,
+        "physical": 6,
+        "people": 5,
+        "food": false,
+        "transport": ["driving"],
+        "alcohol": false,
+        "time": "daytime",
+        "money": 4,
+        "freedom": true,
+        "info": " "
+    }
+}

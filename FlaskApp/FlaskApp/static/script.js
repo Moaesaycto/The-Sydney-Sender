@@ -111,7 +111,6 @@ function checkForm() {
     var freedom = document.querySelector('input[name = "freedom"]:checked');
 
     var unfilled = 0;
-    console.log(food);
     if (food == null) {
         document.getElementById("question5").style.background = red;
         unfilled += 1;
@@ -200,7 +199,6 @@ function createRequestJSON(num) {
 }
 
 function requestSubmit(request) {
-    console.log(request);
     fetch(`${window.origin}/submit`, {
         method: "POST",
         credentials: "include",

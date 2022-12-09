@@ -3,7 +3,7 @@ import threading, webbrowser
 from main import generate;
 
 app = Flask(__name__)
-PORT = 5110
+PORT = 5114
 HOST = "127.0.0.1"
 
 @app.route('/') 
